@@ -1,8 +1,7 @@
-# React + Vite
+# Ticket Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This ticket Generator takes information such as the name of the user, the email, the picture and the github handle of the user and uses it to generate a ticket.
 
-Currently, two official plugins are available:
+This project was created using Vite + React and makes use of react hooks such as useEffect and UseState. It also makes use of React-router-dom to manage the routes/pages in the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is a beginner frontend challenge on FrontEndMentor.
