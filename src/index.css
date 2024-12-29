@@ -1,0 +1,66 @@
+/* //static font styles */
+*{
+  margin: 0;
+}
+#root{
+  margin: 0;
+  overflow-x:hidden;
+  height: 100vh;
+  background: url("/assets/images/pattern-lines.svg") repeat-y,
+    url("/assets/images/pattern-circle.svg") no-repeat bottom right,
+    url("/assets/images/pattern-squiggly-line-bottom.svg") no-repeat bottom left,
+    url("/assets/images/pattern-squiggly-line-top.svg") no-repeat top right,
+    url("/assets/images/background-desktop.png") ;
+     background-size: auto;
+}
+
+@font-face {
+  font-family: 'Inconsolata' ;
+  src: url('./assets/fonts/static/Inconsolata-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inconsolata' ;
+  src: url('./assets/fonts/static/Inconsolata-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Inconsolata' ;
+  src: url('./assets/fonts/static/Inconsolata-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inconsolata' ;
+  src: url('./assets/fonts/static/Inconsolata-ExtraBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  #root {
+    background: url("/assets/images/pattern-lines.svg") repeat-y,
+      url("/assets/images/pattern-circle.svg") no-repeat bottom right,
+      url("/assets/images/pattern-squiggly-line-bottom.svg") no-repeat bottom left,
+      url("/assets/images/pattern-squiggly-line-top.svg") no-repeat top right,
+      url("/assets/images/background-tablet.png");
+    background-size: auto;
+  }
+}
+
+/* For Mobile */
+@media screen and (max-width: 768px) {
+  #root {
+    background: url("/assets/images/pattern-lines.svg") repeat-y,
+      url("/assets/images/pattern-circle.svg") no-repeat bottom right,
+      url("/assets/images/pattern-squiggly-line-bottom.svg") no-repeat bottom left,
+      url("/assets/images/pattern-squiggly-line-top.svg") no-repeat top right,
+      url("/assets/images/background-mobile.png");
+    background-size: auto;
+  }
+}
